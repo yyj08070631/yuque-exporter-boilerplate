@@ -44,5 +44,5 @@ Follow steps below to download markdown files of your Yuque articles, without an
 - Click "Show in Finder" to browse your Markdown files
 <img width="960" alt="image" src="https://github.com/yyj08070631/yuque-exporter-boilerplate/assets/27988527/16a9d4a6-df33-40f3-8072-8f8c8676ae2e">
 
-
-
+- Click "Fetch origin" to get latest acticles from Github repo
+<img width="960" alt="image" src="https://github.com/yyj08070631/yuque-exporter-boilerplate/assets/27988527/df3347ec-fb4e-43cc-89b7-9af331458c14">
