@@ -1,7 +1,12 @@
 name: Sync Yuque Article
+
 on:
+  schedule:
+    - cron: '30 5 * * *'
   workflow_dispatch: {}
+
 permissions: write-all
+
 jobs:
   sync:
     runs-on: ${{ matrix.os }}
