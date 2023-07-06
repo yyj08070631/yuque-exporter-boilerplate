@@ -46,3 +46,9 @@ Follow steps below to download markdown files of your Yuque articles, without an
 
 - Click "Fetch origin" to get latest acticles from Github repo
 <img width="960" alt="image" src="https://github.com/yyj08070631/yuque-exporter-boilerplate/assets/27988527/df3347ec-fb4e-43cc-89b7-9af331458c14">
+
+## P.S.
+
+- Workflow will trigger every day at 5:30 by default, you can modify `on.schedule.cron` to change the time
+<img width="539" alt="image" src="https://github.com/yyj08070631/yuque-exporter-boilerplate/assets/27988527/79610ecf-cbbb-4eb3-9f7e-cdbf3112e4ca">
+
