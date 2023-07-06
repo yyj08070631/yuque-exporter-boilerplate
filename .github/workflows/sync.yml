@@ -1,9 +1,6 @@
 name: Sync Yuque Article
 on:
   workflow_dispatch: {}
-env:
-  YUQUE_TOKEN: ''
-  REPOS: ''
 permissions: write-all
 jobs:
   sync:
@@ -26,7 +23,7 @@ jobs:
 
       - name: Fetch Yuque Article
         run: |
-          YUQUE_TOKEN=$YUQUE_TOKEN npx yuque-exporter $REPOS
+          YUQUE_TOKEN=${{ secrets.YUQUE_TOKEN }} npx yuque-exporter ${{ vars.REPOS }}
 
       - name: Add files to repository
         run: |
